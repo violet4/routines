@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
 falcon = "*"
-waitress = "*"
-ipython = "*"
 ipdb = "*"
+ipython = "*"
+requests = "*"
 sqlalchemy = "*"
+waitress = "*"
 
 [dev-packages]
 

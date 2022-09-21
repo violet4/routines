@@ -1,31 +1,5 @@
-body {
-  background-color: rgb(49, 49, 49);
-  color: white;
+
+* {
+    background-color:black;
+    color: white;
 }
-
-
-/* make every other table line darker */
-tr:nth-child(odd) {
-  background-color: #222;
-}
-
-/* currency matrix: make every other row light */
-tr:nth-child(even) {
-  background-color: #444;
-}
-
-/* currency matrix: make header row bold and pale blue */
-tr > th {
-  color: #6699bb;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-/* tables: make every other column purple bg with green text */
-/* table > tbody > tr > td:nth-child(even) { */
-tr > td:nth-child(even) {
-  background-color: rgba(176, 27, 235, 0.11);
-  color: #00ff6a
-}
-
-
